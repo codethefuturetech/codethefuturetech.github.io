@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon"/>
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="../assets/fonts/Feather/feather.css">
+    <link rel="stylesheet" href="../assets/libs/flickity/dist/flickity.min.css">
+    <link rel="stylesheet" href="../assets/libs/flickity-fade/flickity-fade.css">
+    <link rel="stylesheet" href="../assets/libs/aos/dist/aos.css">
+    <link rel="stylesheet" href="../assets/libs/jarallax/dist/jarallax.css">
+    <link rel="stylesheet" href="../assets/libs/highlightjs/styles/vs2015.css">
+    <link rel="stylesheet" href="../assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="../assets/css/theme.min.css">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+    <title>Code The Future Tech</title>
+  </head>
+  <body>
+    
+    <!-- NAVBAR
+    ================================================== -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="../index.html">
+          <!-- <img src="../assets/img/brand.svg" class="navbar-brand-img" alt="..."> -->
+          Codethefuture.tech
+        </a>
+
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fe fe-x"></i>
+          </button>
+
+          <!-- Navigation -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="../index.html">
+                Home
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="../listing.html">
+                Courses
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="../blog.html">
+                Blog
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="../about.html">
+                About
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="../contact.html">
+                Contact
+              </a>
+            </li>
+          </ul>
+
+          <!-- Button -->
+          <a class="navbar-btn btn btn-sm btn-primary lift ml-auto" href="../listing.html">
+            Register
+          </a>
+
+        </div>
+  
+      </div>
+    </nav>
+
+
+    <section class="pt-8 pt-md-11">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-9 col-xl-8">
+            
+            <!-- Heading -->
+            <h1 class="display-4 text-center">
+              Components of Microservices
+            </h1>
+
+            <!-- Text -->
+            <p class="lead mb-7 text-center text-muted">
+              Let us look at components of Microservices , which we will be learning, We will be creating.
+            </p>
+
+            <!-- Meta -->
+            <div class="row align-items-center py-5 border-top border-bottom">
+              <div class="col-auto">
+              
+                <!-- Avatar -->
+                <div class="avatar avatar-lg">
+                  <img src="../assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                </div>
+                
+              </div>
+              <div class="col ml-n5">
+
+                <!-- Name -->
+                <h6 class="text-uppercase mb-0">
+                  Pallav
+                </h6>
+
+                <!-- Date -->
+                <time class="font-size-sm text-muted" datetime="2019-05-20">
+                  Published on Sep 19, 2019
+                </time>
+
+              </div>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <section class="pt-6 pt-md-8 mb-10">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-9 col-xl-8">
+            
+            <!-- Fugure -->
+            <figure class="figure mb-7">
+
+              <!-- Image -->
+              <img class="figure-img img-fluid rounded lift lift-lg" src="../assets/img/photos/photo-one.png" alt="...">
+
+              <!-- Caption -->
+              <figcaption class="figure-caption text-center">
+                Above is the diagram of the components we will be building.
+              </figcaption>
+
+            </figure>
+            
+            <!-- Text -->
+            <ul>
+              <li>
+                <span style="font-weight: bold;">Microservices</span> : user-service and todo-services.
+              </li>
+              <li>
+                <span style="font-weight: bold;">Config Server</span> : All Microservices on startup will refer to config server for their configurations.
+              </li>
+              <li>
+                <span style="font-weight: bold;">Api Gateway</span> : A centralized way to access all the microservices , A front facing unit for all the clients. Also responsible for common services via Filters viz. Authentication , capturing user info in log before hitting services and many other.
+              </li>
+              <li>
+                <span style="font-weight: bold;">Feign Client</span> : Helps to remove boilerplate restTemplate code
+              </li>
+              <li>
+                <span style="font-weight: bold;">Ribbon</span> : Along with feign client helps to load balance the application
+              </li>
+              <li>
+                <span style="font-weight: bold;">Naming Server</span> : Eureka: All of the microservices on startup will let naming server know about their existence. Naming server will know their address /location/ ip . Whenever one microservices calls another via ribbon/feign , it will check naming server for existence on another service and return correct one. Because there can be multiple instances of any microservice it helps as in load balancing .
+              </li>
+              <li>
+                <span style="font-weight: bold;">Spring Cloud Sleuth</span> : As the name suggests ,sleuth is a detective, To every incoming request it adds tracing mechanism , i.e. traceid . With all logs printing this trace id. We can track over which microservice instance request has traveled.
+              </li>
+              <li>
+                <span style="font-weight: bold;">Rabbit MQ</span> : Just to keep track of all traces coming of incoming request. It keeps all these traces at one centralized place.
+              </li>
+              <li>
+                <span style="font-weight: bold;">Zipkin</span> : UI for looking tracing the entire journey of request.
+              </li>
+              <li>
+                <span style="font-weight: bold;">Hystrix</span> : A fallback mechanism for any failing services.
+              </li>
+            </ul>
+            <!-- <p>
+              Note: All of the above Microservices are created as a part of tutorial , You can find entire tutorial at <a href="https://www.udemy.com/course/spring-boot-and-rest-api/?couponCode=SPRING50">Spring Boot REST API and Microservices</a>
+            </p> -->
+            <p class="mb-0">
+              The source code of the above microservice architecture is present at <a href="https://github.com/CODINGSAINT/microservices">Github</a>.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    
+
+    <!-- FOOTER
+    ================================================== -->
+    <footer class="py-8 py-md-11 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3">
+        
+            <!-- Brand -->
+            <!-- <img src="./assets/img/brand.svg" alt="..." class="footer-brand img-fluid mb-2"> -->
+            <span style="color: white;font-weight: bold;font-size: 20px;">Codethefuture.tech</span>
+
+            <!-- Text -->
+            <p class="text-gray-700 mb-2">
+              A better way to build.
+            </p>
+
+            <!-- Social -->
+            <!-- <ul class="list-unstyled list-inline list-social mb-6 mb-md-0">
+              <li class="list-inline-item list-social-item mr-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/instagram.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item mr-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/facebook.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item mr-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/twitter.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/pinterest.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+            </ul> -->
+
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+        
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Courses
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Java
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Data Structures
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Algorithms
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Microservices
+                </a>
+              </li>
+              <li>
+                <a href="#!" class="text-reset">
+                  Spring
+                </a>
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+        
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Reference Material
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Microservices
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Spring
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Python
+                </a>
+              </li>
+              <li>
+                <a href="#!" class="text-reset">
+                  Data Structures and Algorithms
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </footer>
+
+    <!-- Drfit Link -->
+
+    <!-- Start of Async Drift Code -->
+    <script>
+    "use strict";
+
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('tnevw4bwifdg');
+    </script>
+    <!-- End of Async Drift Code -->
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+    <script src="../assets/libs/flickity-fade/flickity-fade.js"></script>
+    <script src="../assets/libs/aos/dist/aos.js"></script>
+    <script src="../assets/libs/smooth-scroll/dist/smooth-scroll.min.js"></script>
+    <script src="../assets/libs/jarallax/dist/jarallax.min.js"></script>
+    <script src="../assets/libs/jarallax/dist/jarallax-video.min.js"></script>
+    <script src="../assets/libs/jarallax/dist/jarallax-element.min.js"></script>
+    <script src="../assets/libs/typed.js/lib/typed.min.js"></script>
+    <script src="../assets/libs/countup.js/dist/countUp.min.js"></script>
+    <script src="../assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="../assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+
+    <!-- Theme JS -->
+    <script src="../assets/js/theme.min.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
